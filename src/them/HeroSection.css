@@ -1,0 +1,80 @@
+
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.overlay h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.overlay p {
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif ;
+}
+
+.form-section {
+  background: #ffffffd8;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.slide-bg-1 {
+  background-image: url('../assets/event-and-exhibition.webp');
+}
+
+.slide-bg-2 {
+  background-image: url('../assets/media-planning.webp');
+}
+
+.slide-bg-3 {
+  background-image: url('../assets/print-media.webp');
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  visibility: hidden;
+}
+h1, p { font-family: 'Montserrat', sans-serif; }
+
+@media (max-width: 992px) {
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .overlay {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .form-section {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+  }
+}

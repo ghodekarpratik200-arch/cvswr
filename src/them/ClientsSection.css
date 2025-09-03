@@ -1,0 +1,23 @@
+.clients {
+  background: #f4f4f4;
+  padding: 3rem 1rem;
+}
+
+.clients h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.clients-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.clients-list li {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+}
