@@ -10,7 +10,7 @@
 }
 
 .single-hero-section {
-    background-image: url(http://localhost:3000/static/media/herobg.7c19ee53dba30dccc67e.png);
+    background-image: url(../assets/herobg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -24,13 +24,13 @@
 
 .overlay h1 {
   margin-bottom: 20px;
-  font-size: 4.5rem;
+font-size: 3.7rem;
   color: #000000;
   font-family: 'Montserrat', sans-serif !important;
 }
 
 .overlay p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #161616bd;
     font-family: 'Montserrat', sans-serif;
     padding: 30px 0px;
@@ -69,7 +69,9 @@ h1, p, input, select, textarea, button {
     position: absolute;
 }
 .card-4 {
-    background-image: url(../assets/print-media.webp);
+    background-image: url(../assets/f2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 0;
     transform: translate(299px, 0px);
     height: 300px !important;
@@ -78,19 +80,22 @@ h1, p, input, select, textarea, button {
 }
 
 .card-3 {
-    background-image: url(../assets/media-planning.webp);
+    background-image: url(../assets/f1.webp);
+    background-size: cover;
     z-index: 1;
     transform: translate(207px, 2px);
-    height: 360px !important;
+    height: 345px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
 }
 
 .card-2 {
-    background-image: url(../assets/strategy-planning.webp);
+    background-image: url(../assets/f3.jpg);
     z-index: 2;
+     background-size: cover;
+   background-position: center;
     transform: translate(104px, 0px);
-    height: 435px !important;
+    height: 390px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
 }
